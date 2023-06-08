@@ -782,8 +782,8 @@ def Argentina2():
         "https://sofifa.com/team/113044/barracas-central/",
         "https://sofifa.com/team/111715/tigre/",
         "720",  # Belgrano
-        "280",  # Quilmes
-        "1358",  # Chacarita Juniors
+        # "280",  # Quilmes
+        # "1358",  # Chacarita Juniors
         # "1193",  # Tigre
     ]
 
