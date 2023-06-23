@@ -255,8 +255,10 @@ def renameClubs(clubName):
         clubName = "Bordeaux"
     elif clubName == "FC Nantes":
         clubName = "Nantes"
-    elif clubName == "Stade de Reims":
-        clubName = "Reims"
+    elif clubName == "Olympique de Marseille":
+        clubName = "Olympique Marselha"
+    elif clubName == "Reims":
+        clubName = "Stade de Reims"
     elif clubName == "FC Metz":
         clubName = "Metz"
     elif clubName == "Racing Club de Lens":
@@ -860,6 +862,9 @@ def renameClubs(clubName):
         clubName = "Charlotte FC"
     elif clubName == "Philadelphia":
         clubName = "Philadelphia Union"
+    elif clubName == "CF Montréal":
+        clubName = "Montreal Impact"
+    
 
     elif "Saprissa" in clubName:
         clubName = "Saprissa"
