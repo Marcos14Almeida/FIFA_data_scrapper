@@ -126,7 +126,7 @@ def Espanha():
         "https://sofifa.com/team/457/real-sociedad/",
         "https://sofifa.com/team/1860/getafe-cf/",
         "https://sofifa.com/team/450/rc-celta-de-vigo/",
-        "https://sofifa.com/team/452/rcd-espanyol-de-barcelona/",
+        "https://sofifa.com/team/452/espanyol/",
         "https://sofifa.com/team/1853/levante-union-deportiva/",
         "https://sofifa.com/team/479/ca-osasuna/",
         "https://sofifa.com/team/462/real-valladolid-cf/",

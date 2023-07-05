@@ -12,7 +12,7 @@ from functions.renameClubs import renameClubs
 # Nova versao melhor -> usar essa
 
 
-def save_file_asrows(filename, listAllClubs):
+def save_file_asrows(listAllClubs):
     import pandas as pd
 
     path = "C:/Users/marco/OneDrive/Documentos/python/fifa_scrapper/"
@@ -54,10 +54,8 @@ def save_file_asrows(filename, listAllClubs):
     print(allplayers.shape)
 
     print("Salvando...")
-    # Save
-    allplayers.to_csv(path + filename, sep=",", index=False)
 
-    # Save copy
+    # Save
     import datetime
 
     x = datetime.datetime.now()
@@ -65,9 +63,14 @@ def save_file_asrows(filename, listAllClubs):
     month = x.strftime("%m")
     year = x.strftime("%Y")
     save_in = path + f"database/global {year}_{month}_{day}.csv"
+    print(allplayers)
     allplayers.to_csv(save_in, sep=",", index=False)
 
-    print("FIM")
+    # Save copy
+    copy_allplayers = allplayers
+    copy_allplayers.to_csv(path + "database/global_copy.csv", sep=",", index=False)
+
+    print("End")
 
 
 def save_df(df):
