@@ -257,6 +257,8 @@ def renameClubs(clubName):
         clubName = "Nantes"
     elif clubName == "Olympique de Marseille":
         clubName = "Olympique Marselha"
+    elif clubName == "Stade de Reims ":
+        clubName = "Stade de Reims"
     elif clubName == "Reims":
         clubName = "Stade de Reims"
     elif clubName == "FC Metz":
@@ -366,6 +368,8 @@ def renameClubs(clubName):
     elif clubName == "KAA Gent":
         clubName = "Gent"
     elif clubName == "Royal Antwerp FC":
+        clubName = "Royal Antwerp"
+    elif clubName == "Antwerp":
         clubName = "Royal Antwerp"
     elif clubName == "KV Mechelen":
         clubName = "Mechelen"
@@ -702,6 +706,8 @@ def renameClubs(clubName):
         clubName = "Danubio"
     elif clubName == "Defensor Sporting":
         clubName = "Defensor"
+    elif clubName == "Liverpool-URU":
+        clubName = "Liverpool-URU"
     # PARAGUAI
     elif clubName == "Club Olimpia":
         clubName = "Olimpia"
@@ -908,6 +914,10 @@ def renameClubs(clubName):
     elif clubName == "Al Hilal SC":
         clubName = "Al Hilal"
     elif clubName == "Al Ahli Jeddah":
+        clubName = "Al Ahli"
+    elif clubName == "Al Ahli Saudi":
+        clubName = "Al Ahli"
+    elif clubName == "Al Ahli SFC":
         clubName = "Al Ahli"
     elif clubName == "Al Duhail SC":
         clubName = "Al Duhail"
